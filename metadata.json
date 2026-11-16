@@ -1,0 +1,6 @@
+{
+  "name": "FlowerCRM — Омниканальная CRM для сети цветочных салонов",
+  "description": "Единая система управления цветочным бизнесом: омниканальный чат (ВК, Telegram, Flowwow, Flavary, MAX, Сайт), клиентская база, Канбан заказов с рецептурой букетов и сквозная аналитика.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
