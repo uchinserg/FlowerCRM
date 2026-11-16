@@ -11,10 +11,14 @@ import {
   StaffUser,
 } from '../types/crm';
 
+import pinkPeonyBouquetUrl from '../assets/images/bouquet_peony_roses_pink_1794586208344.jpg';
+import redExplorerBoxUrl from '../assets/images/bouquet_red_explorer_box_1794586209548.jpg';
+import hydrangeaCloudUrl from '../assets/images/bouquet_hydrangea_cloud_1794586209625.jpg';
+
 export const BOUQUET_IMAGES = {
-  PINK_PEONY: '/src/assets/images/bouquet_peony_roses_pink_1794586208344.jpg',
-  RED_EXPLORER_BOX: '/src/assets/images/bouquet_red_explorer_box_1794586209548.jpg',
-  HYDRANGEA_CLOUD: '/src/assets/images/bouquet_hydrangea_cloud_1794586209625.jpg',
+  PINK_PEONY: pinkPeonyBouquetUrl,
+  RED_EXPLORER_BOX: redExplorerBoxUrl,
+  HYDRANGEA_CLOUD: hydrangeaCloudUrl,
 };
 
 export const INITIAL_BRANCHES: Branch[] = [

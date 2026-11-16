@@ -58,9 +58,11 @@ import {
   X,
 } from 'lucide-react';
 
+import wallpaperUrl from './assets/images/grass_bokeh_wallpaper_1794740508592.jpg';
+
 type ActiveModuleTab = 'CHAT' | 'KANBAN' | 'CUSTOMERS' | 'ANALYTICS' | 'SECURITY_RBAC';
 
-const WALLPAPER_URL = '/src/assets/images/grass_bokeh_wallpaper_1794740508592.jpg';
+const WALLPAPER_URL = wallpaperUrl;
 
 const TAB_TITLES: Record<ActiveModuleTab, string> = {
   KANBAN: 'Канбан заказов',
